@@ -1,17 +1,16 @@
+import { useState } from 'react'
+import Appui from './components/Appui/Appui'
+import Functions from './components/functions/Functions'
 
-import './App.css';
-
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import Header from './components/header/Header';
-import Body from './components/body/Body';
 
 function App() {
   return (
     <div>
-   <Header/>
-   <Body/>
+<Appui/>
+<Functions/>
+
     </div>
   )
 }
 
-export default App;
+export default App

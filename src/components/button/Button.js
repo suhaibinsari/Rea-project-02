@@ -1,16 +1,9 @@
-
 import React from 'react'
-import '../button/Button.css'
-export default function Button(props) {
-    return (
-        <div>
-            <button id='con2btn' style={props.style} >
-                {props.title}
-                </button>
-           
-        </div>
 
-
-    )
+function Button() {
+  return (
+    <div>moon</div>
+  )
 }
 
+export default Button
